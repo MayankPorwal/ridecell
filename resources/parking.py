@@ -58,6 +58,7 @@ class Parking(Resource):
             parking.latitude = parking_json["latitude"]
             parking.longitude = parking_json["longitude"]
             parking.status = parking_json["status"]
+            parking.cost = parking_json["cost"]
         else:
             parking_json["name"] = name
 
